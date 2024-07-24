@@ -18,14 +18,6 @@ def view_tasks(my_var):
             str=f"{counter}.{hold_task[0]}: {hold_task[1]}"
             print("\033[9m{}\033[0m".format(str))     
             
-    """
-    for i in range(len(tasks_list)):
-        if tasks_complete[i]==True:
-            counter+=1
-            hold_task=tasks_list[i].split("***")
-            
-            #print()
-    """
     if my_var==True:
         input("Press any key to continue")
 def mark_to_remove(): 
